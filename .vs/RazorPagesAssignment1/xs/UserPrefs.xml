@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{1DB40C29-7CED-4AE8-99D6-51D9C1CAF486}|Default">
   <MonoDevelop.Ide.ItemProperties.RazorPagesAssignment1 PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Students/Create.cshtml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Students/Details.cshtml.cs">
     <Files>
       <File FileName="Pages/Students/Search.cshtml.cs" Line="9" Column="41" />
       <File FileName="Program.cs" />
@@ -10,21 +10,26 @@
       <File FileName="Pages/_ViewImports.cshtml" />
       <File FileName="Pages/_ViewStart.cshtml" />
       <File FileName="Pages/Index.cshtml" />
-      <File FileName="Pages/Students/Create.cshtml.cs" Line="1" Column="1" />
+      <File FileName="Pages/Students/Create.cshtml.cs" Line="81" Column="26" />
+      <File FileName="Data/RazorPagesAssignment1Context.cs" Line="1" Column="1" />
+      <File FileName="Model/Details.cs" Line="1" Column="1" />
+      <File FileName="Pages/Students/Details.cshtml" Line="1" Column="1" />
+      <File FileName="Pages/Students/Delete.cshtml" Line="1" Column="1" />
+      <File FileName="Pages/Students/Details.cshtml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="RazorPagesAssignment1" expanded="True">
+          <Node name="RazorPagesAssignment1" expanded="True" selected="True">
             <Node name="RazorPagesAssignment1" expanded="True">
               <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True" />
               <Node name="Model" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="Shared" expanded="True" />
                 <Node name="Students" expanded="True">
-                  <Node name="Create.cshtml" expanded="True">
-                    <Node name="Create.cshtml.cs" selected="True" />
-                  </Node>
+                  <Node name="Create.cshtml" expanded="True" />
+                  <Node name="Details.cshtml" expanded="True" />
                   <Node name="Search.cshtml" expanded="True" />
                 </Node>
               </Node>
