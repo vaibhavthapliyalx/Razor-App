@@ -1,0 +1,59 @@
+﻿@page
+@model RazorPagesAssignment1.Pages.Students.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Details</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Details.Title" class="control-label"></label>
+                <input asp-for="Details.Title" class="form-control" />
+                <span asp-validation-for="Details.Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Details.FirstName" class="control-label"></label>
+                <input asp-for="Details.FirstName" class="form-control" />
+                <span asp-validation-for="Details.FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Details.LastName" class="control-label"></label>
+                <input asp-for="Details.LastName" class="form-control" />
+                <span asp-validation-for="Details.LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Details.Email" class="control-label"></label>
+                <input asp-for="Details.Email" class="form-control" />
+                <span asp-validation-for="Details.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Details.Phone" class="control-label"></label>
+                <input asp-for="Details.Phone" class="form-control" />
+                <span asp-validation-for="Details.Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Details.Photo" class="control-label"></label>
+                <input asp-for="Details.Photo" class="form-control" />
+                <span asp-validation-for="Details.Photo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
