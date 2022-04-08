@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ARcSDvV6ppuet5oySJAXJV9f+e67V6cUwG4do2PLb3mOE+KBI3HvX1wX4vCFgctXGuKKjtfxIbJgAW+xGq3bSg==",
+  "dgSpecHash": "XsRheZ6/YbxYmwY3xanHLoOmZjtvrB6IQro2+wQq4DyuY0tpuixQnjL7ZUP7CKlEEB1QhK5mPxd8YJOi0AbArw==",
   "success": true,
-  "projectFilePath": "/Users/vaibhavthapliyal/Desktop/RazorPagesAssignment1/RazorPagesAssignment1/RazorPagesAssignment1.csproj",
+  "projectFilePath": "/Users/vaibhavthapliyal/Desktop/Coursework/RazorPagesAssignment1.csproj",
   "expectedPackageFiles": [
     "/Users/vaibhavthapliyal/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "/Users/vaibhavthapliyal/.nuget/packages/microsoft.aspnetcore.razor/2.2.0/microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
@@ -162,7 +162,10 @@
     "/Users/vaibhavthapliyal/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/vaibhavthapliyal/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/Users/vaibhavthapliyal/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "/Users/vaibhavthapliyal/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "/Users/vaibhavthapliyal/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "/Users/vaibhavthapliyal/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/vaibhavthapliyal/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/vaibhavthapliyal/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.15/microsoft.netcore.app.host.osx-x64.5.0.15.nupkg.sha512"
   ],
   "logs": []
 }

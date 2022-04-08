@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{1DB40C29-7CED-4AE8-99D6-51D9C1CAF486}|Default">
   <MonoDevelop.Ide.ItemProperties.RazorPagesAssignment1 PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Students/Create.cshtml.cs">
     <Files>
-      <File FileName="Pages/Students/Search.cshtml.cs" Line="26" Column="10" />
+      <File FileName="Pages/Students/Search.cshtml.cs" Line="9" Column="41" />
       <File FileName="Program.cs" />
       <File FileName="Pages/Students/Index.cshtml" />
-      <File FileName="Pages/Students/Create.cshtml" />
+      <File FileName="Pages/Students/Create.cshtml" Line="40" Column="19" />
       <File FileName="Pages/Students/Search.cshtml" />
       <File FileName="Pages/_ViewImports.cshtml" />
       <File FileName="Pages/_ViewStart.cshtml" />
-      <File FileName="Pages/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Pages/Index.cshtml" />
+      <File FileName="Pages/Students/Create.cshtml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,8 +21,12 @@
               <Node name="Model" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="Shared" expanded="True" />
-                <Node name="Students" expanded="True" />
-                <Node name="Index.cshtml" selected="True" />
+                <Node name="Students" expanded="True">
+                  <Node name="Create.cshtml" expanded="True">
+                    <Node name="Create.cshtml.cs" selected="True" />
+                  </Node>
+                  <Node name="Search.cshtml" expanded="True" />
+                </Node>
               </Node>
               <Node name="Properties" expanded="True" />
               <Node name="wwwroot" expanded="True" />
@@ -37,4 +42,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <AuthorInfo Name="vaibhavthapliyal" Email="Thapliyal-V@ulster.ac.uk" Copyright="" Company="" Trademark="" />
 </Properties>
